@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang pt-br>
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Teste para a prova (Parallax)</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+
+		<!-- Bootstrap CDN -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+				
+		<script type="text/javascript">
+			$(window).on('scroll', function(){
+				if($(window).scrollTop()){
+					$('nav').addClass('black');
+				}
+				else{
+					$('nav').removeClass('black');
+				}
+			});
+		</script>
+
+
+	</head>
+
+	<body>
+
+		<section class="cabecalho">
+
+			<div class="wrapper">
+				
+				<nav>
+					<ul>
+						
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Sobre</a></li>
+						<li><a href="#">Contato</a></li>
+						<li><a class="active" href="#">Login</a></li>
+
+					</ul>
+
+				</nav>
+
+			</div>
+			
+			<div class="container">
+
+				<div class="row">
+					
+					<div class="col-sm-12">
+						
+						<h1 class="text-center">Bem vindo!</h1>
+
+						<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+						<p class="text-center">
+							<a href="#" class="btn btn-danger">Call To Action!</a>
+						</p>
+
+					</div>
+
+				</div>
+				
+			</div>
+
+		</section>
+
+		<section class="conteudo">
+			
+			<div class="container">
+				
+				<div class="row">
+					
+					<div class="col-xs-12">
+						
+						<h1 class="text-center">Nam in ipsum sed turpis dignissim laoreet vitae non est.</h1>
+
+						<p class="text-center">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ac sem mollis magna pellentesque mattis imperdiet id odio. Sed porttitor est vel leo sodales, vitae dignissim metus posuere. Proin in ultricies erat, non ultrices lacus. Fusce eget tortor lacinia, pellentesque leo et, semper diam. Morbi ultrices enim mattis lobortis dignissim. Mauris sit amet sagittis nulla. Fusce gravida, lacus mollis pharetra aliquet, ex odio maximus metus, vitae accumsan lorem lorem tincidunt metus. Aliquam faucibus accumsan nisi, eu interdum lorem semper eget. Morbi tincidunt auctor quam luctus mattis.</p>
+
+					</div>
+
+				</div>
+
+				<div class="row">
+					
+					<div class="col-sm-4">
+
+						<div class="img-thumbnail">
+
+							<img src="img/001.jpg" class="img-thumbnail">
+
+							<div class="caption text-center">
+								<h3>Ut porta risus nulla</h3>
+
+								<p>Sed massa turpis, sagittis a suscipit sed, mattis sed justo.</p>
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-sm-4">
+
+						<div class="img-thumbnail">
+
+							<img src="img/002.jpg" class="img-thumbnail">
+
+							<div class="caption text-center">
+								<h3>Cras sagittis</h3>
+
+								<p>Sed massa turpis, sagittis a suscipit sed, mattis sed justo.</p>
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-sm-4">
+
+						<div class="img-thumbnail">
+
+							<img src="img/003.jpg" class="img-thumbnail">
+
+							<div class="caption text-center">
+								<h3>Mauris quis</h3>
+
+								<p>Sed massa turpis, sagittis a suscipit sed, mattis sed justo.</p>
+
+							</div>
+
+						</div>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="imagem-site">
+			
+			<div class="container">
+				
+				<div class="row">
+					
+					<div class="col-sm-12">
+						
+						<h1 class="text-center">Aliquam erat volutpat!</h1>
+
+						<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+						<p class="text-center">
+							Duis tempor tempor aliquet. Pellentesque non libero maximus, dignissim mi eget, cursus nisl. Morbi sollicitudin lorem in magna rutrum vulputate.
+						</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="rodape">
+			
+			<div class="container">
+				
+				<div class="row">
+						
+					<div class="col-sm-12">
+						
+						<h5 class="text-center">Praesent sit amet faucibus sem.</h5>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	</body>
+
+
+</html>
